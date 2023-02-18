@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
 		"C:\\Users\\imjgr\\OneDrive\\Desktop\\GameDev\\UnrealGit\\chaoticProject\\RaidV01\\Source\\RaidV01\\RaidV01.Build.cs",
-		"C:\\Users\\imjgr\\OneDrive\\Desktop\\GameDev\\UnrealGit\\chaoticProject\\RaidV01\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
 		"C:\\Users\\imjgr\\OneDrive\\Desktop\\GameDev\\UnrealGit\\chaoticProject\\RaidV01\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprint\\RiderBlueprint.Build.cs",
+		"C:\\Users\\imjgr\\OneDrive\\Desktop\\GameDev\\UnrealGit\\chaoticProject\\RaidV01\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
 		"C:\\Users\\imjgr\\OneDrive\\Desktop\\GameDev\\UnrealGit\\chaoticProject\\RaidV01\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControl\\RiderGameControl.Build.cs",
 		"C:\\Users\\imjgr\\OneDrive\\Desktop\\GameDev\\UnrealGit\\chaoticProject\\RaidV01\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
 		"C:\\Users\\imjgr\\OneDrive\\Desktop\\GameDev\\UnrealGit\\chaoticProject\\RaidV01\\Plugins\\Developer\\RiderLink\\Source\\RiderLogging\\RiderLogging.Build.cs",

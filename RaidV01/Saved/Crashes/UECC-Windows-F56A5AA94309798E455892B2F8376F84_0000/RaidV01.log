@@ -1,0 +1,1113 @@
+﻿Log file open, 02/05/23 00:51:33
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=3712)
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: RaidV01
+LogCore: UnrealTraceServer: Trace store launch successful
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.0-CL-20979098"
+LogCsvProfiler: Display: Metadata set : engineversion="5.0.3-20979098+++UE5+Release-5.0"
+LogCsvProfiler: Display: Metadata set : commandline="" C:/Users/imjgr/OneDrive/Desktop/GameDev/UnrealGit/chaoticProject/RaidV01/RaidV01.uproject -EpicPortal -epicusername=jonGreen456 -epicuserid=1fe641030fd44873b2fd663a6622e9cc -epiclocale=en -epicsandboxid=ue""
+LogCsvProfiler: Display: Metadata set : os="Windows 10 (22H2) [10.0.19045.2486] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i9-10850K CPU @ 3.60GHz"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : loginid="1d6fa17741006cc9e61371a0efd4187e"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogPlatformFile: Not using cached read wrapper
+LogStats: Stats thread started at 0.286949
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-F56A5AA94309798E455892B2F8376F84
+         Session CrashGUID >====================================================
+LogConfig: Display: Loading IOS ini files took 0.03 seconds
+LogConfig: Display: Loading Mac ini files took 0.03 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.03 seconds
+LogConfig: Display: Loading HoloLens ini files took 0.04 seconds
+LogConfig: Display: Loading Android ini files took 0.04 seconds
+LogConfig: Display: Loading Windows ini files took 0.05 seconds
+LogConfig: Display: Loading Unix ini files took 0.05 seconds
+LogConfig: Display: Loading TVOS ini files took 0.05 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.05 seconds
+LogPluginManager: Mounting Engine plugin Bridge
+LogConfig: Display: Loading Linux ini files took 0.05 seconds
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosClothEditor
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin MatineeToLevelSequence
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RuntimePhysXCooking
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Project plugin RiderLink
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/HairStrands/Content/' mounted to '/HairStrands/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE5+Release-5.0-CL-20979098
+LogInit: Engine Version: 5.0.3-20979098+++UE5+Release-5.0
+LogInit: Compatible Engine Version: 5.0.0-19505902+++UE5+Release-5.0
+LogInit: Net CL: 19505902
+LogInit: OS: Windows 10 (22H2) [10.0.19045.2486] (), CPU: Intel(R) Core(TM) i9-10850K CPU @ 3.60GHz, GPU: NVIDIA GeForce RTX 3070
+LogInit: Compiled (64-bit): Jul  7 2022 02:16:06
+LogInit: Compiled with Visual C++: 19.29.30138.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.0
+LogInit: Command Line:  -EpicPortal -epicusername=jonGreen456 -epicuserid=1fe641030fd44873b2fd663a6622e9cc -epiclocale=en -epicsandboxid=ue
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 34
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 59
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 3
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 59
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 36
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[r.DetectAndWarnOfBadDrivers:0]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2023.02.05-05.51.33:895][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2023.02.05-05.51.33:895][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[DefaultPVRTCQuality:1]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:1]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MatineeActorCameraAnim]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MatineeActorCameraAnim]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2023.02.05-05.51.33:895][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2023.02.05-05.51.33:899][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2023.02.05-05.51.33:899][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2023.02.05-05.51.33:899][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2023.02.05-05.51.33:899][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2023.02.05-05.51.33:899][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2023.02.05-05.51.33:899][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2023.02.05-05.51.33:899][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2023.02.05-05.51.33:899][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2023.02.05-05.51.33:899][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2023.02.05-05.51.33:899][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2023.02.05-05.51.33:899][  0]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
+[2023.02.05-05.51.33:928][  0]LogD3D12RHI: Aftermath initialized
+[2023.02.05-05.51.33:928][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2023.02.05-05.51.34:146][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce RTX 3070 (Max supported Feature Level 12_1, shader model 6.6)
+[2023.02.05-05.51.34:146][  0]LogD3D12RHI: Adapter has 8043MB of dedicated video memory, 0MB of dedicated system memory, and 16344MB of shared system memory, 1 output[s]
+[2023.02.05-05.51.34:152][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (Max supported Feature Level 12_1, shader model 6.2)
+[2023.02.05-05.51.34:152][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 16344MB of shared system memory, 0 output[s]
+[2023.02.05-05.51.34:152][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2023.02.05-05.51.34:152][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2023.02.05-05.51.34:152][  0]LogDeviceProfileManager: Applying CVar settings loaded from the selected device profile: [WindowsEditor]
+[2023.02.05-05.51.34:153][  0]LogHAL: Display: Platform has ~ 32 GB [34276364288 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.02.05-05.51.34:153][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2023.02.05-05.51.34:153][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2023.02.05-05.51.34:153][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [Scalability]
+[2023.02.05-05.51.34:153][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [Scalability]
+[2023.02.05-05.51.34:153][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [Scalability]
+[2023.02.05-05.51.34:153][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@2] File [Scalability]
+[2023.02.05-05.51.34:153][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@2] File [Scalability]
+[2023.02.05-05.51.34:153][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [Scalability]
+[2023.02.05-05.51.34:153][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [Scalability]
+[2023.02.05-05.51.34:153][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [Scalability]
+[2023.02.05-05.51.34:153][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [Scalability]
+[2023.02.05-05.51.34:153][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@2] File [Scalability]
+[2023.02.05-05.51.34:153][  0]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:1]] deferred - dummy variable created
+[2023.02.05-05.51.34:153][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.02.05-05.51.34:153][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2023.02.05-05.51.34:153][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/imjgr/OneDrive/Desktop/GameDev/UnrealGit/chaoticProject/RaidV01/Saved/Config/WindowsEditor/Editor.ini]
+[2023.02.05-05.51.34:153][  0]LogInit: Computer: DESKTOP-QSRT9V5
+[2023.02.05-05.51.34:153][  0]LogInit: User: imjgr
+[2023.02.05-05.51.34:153][  0]LogInit: CPU Page size=4096, Cores=10
+[2023.02.05-05.51.34:153][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.02.05-05.51.34:153][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2023.02.05-05.51.34:153][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2023.02.05-05.51.34:153][  0]LogMemory: Process Physical Memory: 294.56 MB used, 303.39 MB peak
+[2023.02.05-05.51.34:153][  0]LogMemory: Process Virtual Memory: 274.57 MB used, 274.57 MB peak
+[2023.02.05-05.51.34:153][  0]LogMemory: Physical Memory: 19058.67 MB used,  13629.82 MB free, 32688.49 MB total
+[2023.02.05-05.51.34:153][  0]LogMemory: Virtual Memory: 22869.23 MB used,  14683.26 MB free, 37552.49 MB total
+[2023.02.05-05.51.34:153][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2023.02.05-05.51.34:158][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.02.05-05.51.34:174][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2023.02.05-05.51.34:175][  0]LogInit: Using OS detected language (en-US).
+[2023.02.05-05.51.34:175][  0]LogInit: Using OS detected locale (en-US).
+[2023.02.05-05.51.34:180][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2023.02.05-05.51.34:317][  0]LogInit: Setting process to per monitor DPI aware
+[2023.02.05-05.51.34:331][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2023.02.05-05.51.34:331][  0]LogWindowsTextInputMethodSystem:   - English (United States) - (Keyboard).
+[2023.02.05-05.51.34:331][  0]LogWindowsTextInputMethodSystem:   - English (United States) - Touch Input Correction (TSF IME).
+[2023.02.05-05.51.34:331][  0]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2023.02.05-05.51.34:346][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.02.05-05.51.34:347][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.02.05-05.51.34:581][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2023.02.05-05.51.34:586][  0]LogD3D12RHI: [Aftermath] Aftermath crash dumping enabled
+[2023.02.05-05.51.34:586][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2023.02.05-05.51.34:669][  0]LogD3D12RHI: [Aftermath] Aftermath enabled and primed
+[2023.02.05-05.51.34:669][  0]LogD3D12RHI: [Aftermath] Aftermath resource tracking enabled
+[2023.02.05-05.51.34:669][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2023.02.05-05.51.34:669][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2023.02.05-05.51.34:669][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2023.02.05-05.51.34:669][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2023.02.05-05.51.34:669][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2023.02.05-05.51.34:669][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2023.02.05-05.51.34:669][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2023.02.05-05.51.34:669][  0]LogD3D12RHI: D3D12 ray tracing tier 1.0 is supported.
+[2023.02.05-05.51.34:669][  0]LogD3D12RHI: D3D12 ray tracing tier 1.1 is supported.
+[2023.02.05-05.51.34:669][  0]LogD3D12RHI: Mesh shader tier 1.0 is supported
+[2023.02.05-05.51.34:669][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2023.02.05-05.51.34:669][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2023.02.05-05.51.34:669][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2023.02.05-05.51.34:669][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2023.02.05-05.51.34:755][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for 3D Queue 0
+[2023.02.05-05.51.34:761][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Copy Queue 0
+[2023.02.05-05.51.34:774][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Compute Queue 0
+[2023.02.05-05.51.34:808][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2023.02.05-05.51.34:808][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2023.02.05-05.51.34:844][  0]LogD3D12RHI:     GPU DeviceId: 0x2484 (for the marketing name, search the web for "GPU Device Id")
+[2023.02.05-05.51.34:844][  0]LogWindows: Attached monitors:
+[2023.02.05-05.51.34:844][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1040), device: '\\.\DISPLAY1' [PRIMARY]
+[2023.02.05-05.51.34:844][  0]LogWindows: Found 1 attached monitors.
+[2023.02.05-05.51.34:844][  0]LogWindows: EnumDisplayDevices:
+[2023.02.05-05.51.34:844][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3070' (P:1 D:1), name: '\\.\DISPLAY1'
+[2023.02.05-05.51.34:844][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3070' (P:0 D:0), name: '\\.\DISPLAY2'
+[2023.02.05-05.51.34:844][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3070' (P:0 D:0), name: '\\.\DISPLAY3'
+[2023.02.05-05.51.34:844][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3070' (P:0 D:0), name: '\\.\DISPLAY4'
+[2023.02.05-05.51.34:844][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2023.02.05-05.51.34:844][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce RTX 3070
+[2023.02.05-05.51.34:844][  0]LogD3D12RHI:   Driver Version: 516.94 (internal:31.0.15.1694, unified:516.94)
+[2023.02.05-05.51.34:844][  0]LogD3D12RHI:      Driver Date: 7-21-2022
+[2023.02.05-05.51.34:844][  0]LogRHI: Texture pool is 4583 MB (70% of 6547 MB)
+[2023.02.05-05.51.34:845][  0]LogD3D12RHI: Async texture creation enabled
+[2023.02.05-05.51.34:845][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2023.02.05-05.51.34:855][  0]LogRHI: GeForceNow SDK initialized: 0
+[2023.02.05-05.51.34:861][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="C:/Users/imjgr/OneDrive/Desktop/GameDev/UnrealGit/chaoticProject/RaidV01/RaidV01.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/imjgr/OneDrive/Desktop/GameDev/UnrealGit/chaoticProject/RaidV01/Intermediate/TurnkeyReport_0.log" -log="C:/Users/imjgr/OneDrive/Desktop/GameDev/UnrealGit/chaoticProject/RaidV01/Intermediate/TurnkeyLog_0.log" -project="C:/Users/imjgr/OneDrive/Desktop/GameDev/UnrealGit/chaoticProject/RaidV01/RaidV01.uproject"  -platform=all'
+[2023.02.05-05.51.34:861][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/imjgr/OneDrive/Desktop/GameDev/UnrealGit/chaoticProject/RaidV01/RaidV01.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/imjgr/OneDrive/Desktop/GameDev/UnrealGit/chaoticProject/RaidV01/Intermediate/TurnkeyReport_0.log" -log="C:/Users/imjgr/OneDrive/Desktop/GameDev/UnrealGit/chaoticProject/RaidV01/Intermediate/TurnkeyLog_0.log" -project="C:/Users/imjgr/OneDrive/Desktop/GameDev/UnrealGit/chaoticProject/RaidV01/RaidV01.uproject"  -platform=all" ]
+[2023.02.05-05.51.34:886][  0]LogTextureFormatETC2: Display: ETC2 Texture loading DLL: TextureConverter.dll
+[2023.02.05-05.51.34:894][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.5
+[2023.02.05-05.51.34:894][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2023.02.05-05.51.34:902][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.02.05-05.51.34:902][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.02.05-05.51.34:902][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.02.05-05.51.34:902][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.02.05-05.51.34:902][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.02.05-05.51.34:902][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.02.05-05.51.34:902][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.02.05-05.51.34:902][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.02.05-05.51.34:902][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.02.05-05.51.34:902][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.02.05-05.51.34:920][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+[2023.02.05-05.51.34:920][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+[2023.02.05-05.51.34:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.02.05-05.51.34:924][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.02.05-05.51.34:926][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.02.05-05.51.34:926][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2023.02.05-05.51.34:926][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.02.05-05.51.34:926][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.02.05-05.51.34:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2023.02.05-05.51.34:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2023.02.05-05.51.34:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2023.02.05-05.51.34:932][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.02.05-05.51.34:932][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.02.05-05.51.34:937][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.02.05-05.51.34:937][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2023.02.05-05.51.34:937][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.02.05-05.51.34:937][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.02.05-05.51.34:937][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2023.02.05-05.51.34:945][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.02.05-05.51.34:947][  0]LogTargetPlatformManager: Unable to find audio format BINKA from hinted modules, loading all potential format modules to find it
+[2023.02.05-05.51.34:947][  0]LogTargetPlatformManager: Loaded format module AudioFormatADPCM
+[2023.02.05-05.51.34:947][  0]LogTargetPlatformManager:   ADPCM
+[2023.02.05-05.51.34:947][  0]LogTargetPlatformManager:   PCM
+[2023.02.05-05.51.34:949][  0]LogTargetPlatformManager: Loaded format module AudioFormatBink
+[2023.02.05-05.51.34:949][  0]LogTargetPlatformManager:   BINKA
+[2023.02.05-05.51.34:949][  0]LogTargetPlatformManager: Loaded format module AudioFormatOgg
+[2023.02.05-05.51.34:949][  0]LogTargetPlatformManager:   OGG
+[2023.02.05-05.51.34:949][  0]LogTargetPlatformManager: Loaded format module AudioFormatOpus
+[2023.02.05-05.51.34:949][  0]LogTargetPlatformManager:   OPUS
+[2023.02.05-05.51.34:994][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2023.02.05-05.51.34:999][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2023.02.05-05.51.34:999][  0]LogTargetPlatformManager:   SF_METAL
+[2023.02.05-05.51.34:999][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2023.02.05-05.51.34:999][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2023.02.05-05.51.34:999][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2023.02.05-05.51.34:999][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2023.02.05-05.51.34:999][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2023.02.05-05.51.34:999][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2023.02.05-05.51.34:999][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2023.02.05-05.51.34:999][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2023.02.05-05.51.34:999][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2023.02.05-05.51.34:999][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2023.02.05-05.51.34:999][  0]LogTargetPlatformManager:   D3D_ES3_1_HOLOLENS
+[2023.02.05-05.51.34:999][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2023.02.05-05.51.34:999][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2023.02.05-05.51.34:999][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2023.02.05-05.51.35:002][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2023.02.05-05.51.35:002][  0]LogTargetPlatformManager:   VVM_1_0
+[2023.02.05-05.51.35:002][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2023.02.05-05.51.35:002][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2023.02.05-05.51.35:002][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2023.02.05-05.51.35:002][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2023.02.05-05.51.35:002][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2023.02.05-05.51.35:002][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2023.02.05-05.51.35:003][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/imjgr/OneDrive/Desktop/GameDev/UnrealGit/chaoticProject/RaidV01/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2023.02.05-05.51.35:003][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2023.02.05-05.51.35:003][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/imjgr/OneDrive/Desktop/GameDev/UnrealGit/chaoticProject/RaidV01/Intermediate/ShaderAutogen/PCD3D_ES31/AutogenShaderHeaders.ush
+[2023.02.05-05.51.35:004][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2023.02.05-05.51.35:006][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/imjgr/OneDrive/Desktop/GameDev/UnrealGit/chaoticProject/RaidV01/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.02.05-05.51.35:006][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2023.02.05-05.51.35:006][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/imjgr/OneDrive/Desktop/GameDev/UnrealGit/chaoticProject/RaidV01/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.02.05-05.51.35:006][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2023.02.05-05.51.35:022][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1230 MiB)
+[2023.02.05-05.51.35:022][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.02.05-05.51.35:022][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2023.02.05-05.51.35:040][  0]LogDerivedDataCache: Speed tests for C:/Users/imjgr/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.02 seconds
+[2023.02.05-05.51.35:040][  0]LogDerivedDataCache: Display: Performance to C:/Users/imjgr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=254.37MBs, RandomWriteSpeed=67.20MBs. Assigned SpeedClass 'Local'
+[2023.02.05-05.51.35:041][  0]LogDerivedDataCache: Using Local data cache path C:/Users/imjgr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.02.05-05.51.35:041][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.02.05-05.51.35:041][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2023.02.05-05.51.35:047][  0]LogVirtualization: VirtualizationSystem name found in ini file: None
+[2023.02.05-05.51.35:047][  0]LogVirtualization: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2023.02.05-05.51.35:047][  0]LogShaderCompilers: Guid format shader working directory is -41 characters bigger than the processId version (../../../../../../Users/imjgr/OneDrive/Desktop/GameDev/UnrealGit/chaoticProject/RaidV01/Intermediate/Shaders/WorkingDirectory/4848/).
+[2023.02.05-05.51.35:047][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/imjgr/AppData/Local/Temp/UnrealShaderWorkingDir/1EFC042C44810231709F6392AFB69092/'.
+[2023.02.05-05.51.35:047][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.02.05-05.51.35:048][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 10 workers.
+[2023.02.05-05.51.36:291][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2023.02.05-05.51.36:291][  0]LogSlate: Using FreeType 2.10.0
+[2023.02.05-05.51.36:293][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.02.05-05.51.36:327][  0]LogAssetRegistry: FAssetRegistry took 0.0125 seconds to start up
+[2023.02.05-05.51.36:332][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2023.02.05-05.51.36:519][  0]LogAssetRegistry: Error: Package C:/Users/imjgr/OneDrive/Desktop/GameDev/UnrealGit/chaoticProject/RaidV01/Content/LearningKit_Games/MaterialLibrary/Static/T_EnvTile_MetalGalvanized_BC.uasset has malformed tag
+[2023.02.05-05.51.36:520][  0]LogAssetRegistry: Error: Package C:/Users/imjgr/OneDrive/Desktop/GameDev/UnrealGit/chaoticProject/RaidV01/Content/LearningKit_Games/MaterialLibrary/Static/T_EnvTile_MetalBrushed_N.uasset has malformed tag
+[2023.02.05-05.51.36:520][  0]LogSerialization: UsePackageTrailer: 'false'
+[2023.02.05-05.51.36:520][  0]LogTexture: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2023.02.05-05.51.36:901][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2023.02.05-05.51.36:901][  0]LogDeviceProfileManager: Active device profile: [000006D5C9C17000][000006D5C1030000 50] WindowsEditor
+[2023.02.05-05.51.36:901][  0]LogDeviceProfileManager: Profiles: [000006D5C9C16AC0][000006D5C1032800 50] Windows, [000006D5C9C17000][000006D5C1030000 50] WindowsEditor, [000006D5C9C16200][000006D5C103A000 50] WindowsServer, [000006D5C9C171C0][000006D5AC267800 50] WindowsClient, [000006D5C9C124C0][000006D5BB7E7800 50] IOS, [000006D5C9C16900][000006D5C1035000 50] iPadAir2, [000006D5C9C132C0][000006D5C9EB0000 50] IPadPro, [000006D5C9C12BC0][000006D5C9EB2800 50] iPadAir3, [000006D5C9C16580][000006D5C9EB7800 50] iPadAir4, [000006D5C9C163C0][000006D5C9EBA000 50] iPadMini4, [000006D5C9C13B80][000006D5C9EBC800 50] iPadMini5, [000006D5C9C15B00][000006D5BB7E5000 50] iPadMini6, [000006D5C9C1A800][000006D5C9F02800 50] iPhone6S, [000006D5C9C1AB80][000006D5C9F00000 50] iPhone7, [000006D5C9C1A480][000006D5C9F05000 50] iPodTouch7, [000006D5C9C15CC0][000006D5C9F0A000 50] iPhone6SPlus, [000006D5C9C17A80][000006D5C9F0C800 50] iPhone7Plus, [000006D5C9C147C0][000006D5C9EB5000 50] iPhoneSE, [000006D5C9C14D00][000006D5C9F07800 50] iPhone8, [000006D5C9C13640][000006D5C9EA0000 50] iPhone8Plus, [000006D5C9C14B40][000006D5C9EA5000 50] iPhoneX, [000006D5C9C178C0][000006D5C9EA7800 50] iPhoneXS, [000006D5C9C16E40][000006D5C9EAA000 50] iPhoneXSMax, [000006D5C9C17C40][000006D5C9EAC800 50] iPhoneXR, [000006D5C9C194C0][000006D5C212C800 50] iPhone11, [000006D5C9C13480][000006D5C9F10000 50] iPhone11Pro, [000006D5C9C139C0][000006D5C9F15000 50] iPhone11ProMax, [000006D5C9C13F00][000006D5C9F17800 50] iPhoneSE2, [000006D5C9C12F40][000006D5C9F1A000 50] iPhone12Mini, [000006D5C9C14EC0][000006D5C9F1C800 50] iPhone12, [000006D5C9C19140][000006D5C9EA2800 50] iPhone12Pro, [000006D5C9C15780][000006D5C9F20000 50] iPhone12ProMax, [000006D5C9C18F80][000006D5C9F25000 50] iPhone13Mini, [000006D5C9C155C0][000006D5C9F27800 50] iPhone13, [000006D5C9C12140][000006D5C9F2A000 50] iPhone13Pro, [000006D5C9C19300][000006D5C9F2C800 50] iPhone13ProMax, [000006D5C9C15400][000006D5C9F12800 50] iPadPro105, [000006D5C9C18880][000006D5C9F30000 50] iPadPro129, [000006D5C9C17FC0][000006D5C9F35000 50] iPadPro97, [000006D5C9C1A9C0][000006D5C9F37800 50] iPadPro2_129, [000006D5C9C15940][000006D5C9F3A000 50] iPad5, [000006D5C9C19F40][000006D5C9F3C800 50] iPad6, [000006D5C9C15E80][000006D5C9F22800 50] iPad7, [000006D5C9C13800][000006D5C9F40000 50] iPad8, [000006D5C9C19BC0][000006D5C9F45000 50] iPad9, [000006D5C9C18DC0][000006D5C9F47800 50] iPadPro11, [000006D5C9C17380][000006D5C9F4A000 50] iPadPro2_11, [000006D5C9C17E00][000006D5C9F4C800 50] iPadPro3_11, [000006D5C9C15080][000006D5C9F32800 50] iPadPro3_129, [000006D5C9C140C0][000006D5C9F50000 50] iPadPro4_129, [000006D5C9C17700][000006D5C9F55000 50] iPadPro5_129, [000006D5C9C14440][000006D5C9F57800 50] AppleTV, [000006D5C9C16040][000006D5C9F5A000 50] AppleTV4K, [000006D5C9C19A00][000006D5C9F5C800 50] TVOS, [000006D5C9C1C940][000006D5C9F70000 50] Mac, [000006D5C9C1C780][000006D5C9F72800 50] MacEditor, [000006D5C9C18C00][000006D5C9F77800 50] MacClient, [000006D5C9C1C240][000006D5C9F7A000 50] MacServer, [000006D5C9C1D040][000006D5C9F42800 50] Linux, [000006D5C9C1D3C0][000006D5C9F52800 50] LinuxEditor, [000006D5C9C18340][000006D5C9F7C800 50] LinuxArm64Editor, [000006D5C9C19680][000006D5C9F60000 50] LinuxArm64, [000006D5C9C1CE80][000006D5C9F65000 50] LinuxClient, [000006D5C9C1B440][000006D5C9F67800 50] LinuxArm64Client, [000006D5C9C1B7C0][000006D5C9F6A000 50] LinuxServer, [000006D5C9C1C5C0][000006D5C9F6C800 50] LinuxArm64Server, [000006D5C9C19D80][000006D5C9F75000 50] Android, [000006D5C9C1BD00][000006D5C9F80000 50] Android_Preview_OpenGL, [000006D5C9C15240][000006D5C9F85000 50] Android_Preview_Vulkan, [000006D5C9C14280][000006D5C9F87800 50] Android_Low, [000006D5C9C13100][000006D5C9F8A000 50] Android_Mid, [000006D5C9C1B980][000006D5C9F8C800 50] Android_High, [000006D5C9C1A640][000006D5C9F62800 50] Android_Default, [000006D5C9C1B0C0][000006D5C9F90000 50] Android_Adreno4xx, [000006D5C9C1CB00][000006D5C9F95000 50] Android_Adreno5xx_Low, [000006D5C9C1A2C0][000006D5C9F97800 50] Android_Adreno5xx, [000006D5C9C186C0][000006D5C9F9A000 50] Android_Adreno6xx, [000006D5C9C1CCC0][000006D5C9F9C800 50] Android_Adreno6xx_Vulkan, [000006D5C9C1D740][000006D5C9F82800 50] Android_Adreno7xx, [000006D5C9C13D40][000006D5C9FA0000 50] Android_Adreno7xx_Vulkan, [000006D5C9C12D80][000006D5C9FA5000 50] Android_Mali_T6xx, [000006D5C9C1DAC0][000006D5C9FA7800 50] Android_Mali_T7xx, [000006D5C9C1AF00][000006D5C9FAA000 50] Android_Mali_T8xx, [000006D5C9C1DC80][000006D5C9FAC800 50] Android_Mali_G71, [000006D5C9C1DE40][000006D5C9F92800 50] Android_Mali_G72, [000006D5C9C12300][000006D5C9FB0000 50] Android_Mali_G72_Vulkan, [000006D5C9C1B600][000006D5C9FB5000 50] Android_Mali_G76, [000006D5C9C16740][000006D5C9FB7800 50] Android_Mali_G76_Vulkan, [000006D5C9C17540][000006D5C9FBA000 50] Android_Mali_G77, [000006D5C9C1B280][000006D5C9FBC800 50] Android_Mali_G77_Vulkan, [000006D5C9C1E1C0][000006D5C9FA2800 50] Android_Mali_G78, [000006D5C9C18A40][000006D5C9FC0000 50] Android_Mali_G78_Vulkan, [000006D5C9C14980][000006D5C9FC5000 50] Android_Mali_G710, [000006D5C9C18500][000006D5C9FC7800 50] Android_Mali_G710_Vulkan, [000006D5C9C1E700][000006D5C9FCA000 50] Android_Xclipse_920, [000006D5C9C1D580][000006D5C9FCC800 50] Android_Xclipse_920_Vulkan, [000006D5C9C1C400][000006D5C9FB2800 50] Android_Vulkan_SM5, [000006D5C9C1A100][000006D5C9FD0000 50] Android_PowerVR_G6xxx, [000006D5C9C1D200][000006D5C9FD5000 50] Android_PowerVR_GT7xxx, [000006D5C9C1EA80][000006D5C9FD7800 50] Android_PowerVR_GE8xxx, [000006D5C9C1E380][000006D5C9FDA000 50] Android_PowerVR_GM9xxx, [000006D5C9C19840][000006D5C9FDC800 50] Android_PowerVR_GM9xxx_Vulkan, [000006D5C9C1D900][000006D5C9FC2800 50] Android_TegraK1, [000006D5C9FF0000][000006D5C9FE0000 50] Android_Unknown_Vulkan, [000006D5C9FF24C0][000006D5C9FE5000 50] Oculus_Quest, [000006D5C9FF2300][000006D5C9FE7800 50] Oculus_Quest2, [000006D5C9FF1F80][000006D5C9FEA000 50] HoloLens, 
+[2023.02.05-05.51.36:901][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2023.02.05-05.51.36:904][  0]LogTurnkeySupport: Turnkey Platform: Android: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=r21a, MaxAllowed=r23a, Flags="Platform_ValidHostPrerequisites")
+[2023.02.05-05.51.36:904][  0]LogTurnkeySupport: Turnkey Platform: IOS: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=1100.0.0.0, MaxAllowed=1399.0, Flags="Platform_ValidHostPrerequisites")
+[2023.02.05-05.51.36:904][  0]LogTurnkeySupport: Turnkey Platform: Linux: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=v20_clang-13.0.1-centos7, MaxAllowed=v20_clang-13.0.1-centos7, Flags="Platform_ValidHostPrerequisites")
+[2023.02.05-05.51.36:904][  0]LogTurnkeySupport: Turnkey Platform: LinuxArm64: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=v20_clang-13.0.1-centos7, MaxAllowed=v20_clang-13.0.1-centos7, Flags="Platform_ValidHostPrerequisites")
+[2023.02.05-05.51.36:904][  0]LogTurnkeySupport: Turnkey Platform: Win64: (Status=Valid, Installed=10.0.19041.0, AutoSDK=, MinAllowed=10.0.00000.0, MaxAllowed=10.9.99999.0, Flags="InstalledSdk_ValidVersionExists")
+[2023.02.05-05.51.36:932][  0]LogTexture: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2023.02.05-05.51.37:093][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.02.05-05.51.37:093][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.02.05-05.51.37:093][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.02.05-05.51.37:093][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.02.05-05.51.37:093][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.02.05-05.51.37:113][  0]LogNetVersion: RaidV01 1.0.0, NetCL: 19505902, EngineNetVer: 23, GameNetVer: 0 (Checksum: 1256282484)
+[2023.02.05-05.51.37:264][  0]LogSlate: Border
+[2023.02.05-05.51.37:264][  0]LogSlate: BreadcrumbButton
+[2023.02.05-05.51.37:264][  0]LogSlate: Default
+[2023.02.05-05.51.37:264][  0]LogSlate: Icons.Save
+[2023.02.05-05.51.37:264][  0]LogSlate: Icons.Toolbar.Settings
+[2023.02.05-05.51.37:264][  0]LogSlate: ListView
+[2023.02.05-05.51.37:265][  0]LogSlate: SoftwareCursor_CardinalCross
+[2023.02.05-05.51.37:265][  0]LogSlate: SoftwareCursor_Grab
+[2023.02.05-05.51.37:265][  0]LogSlate: TableView.DarkRow
+[2023.02.05-05.51.37:265][  0]LogSlate: TableView.Row
+[2023.02.05-05.51.37:265][  0]LogSlate: TreeView
+[2023.02.05-05.51.37:441][  0]SourceControl: Source control is disabled
+[2023.02.05-05.51.37:470][  0]SourceControl: Source control is disabled
+[2023.02.05-05.51.37:470][  0]SourceControl: Source control is disabled
+[2023.02.05-05.51.37:579][  0]LogUObjectArray: 20557 objects as part of root set at end of initial load.
+[2023.02.05-05.51.37:579][  0]LogUObjectAllocator: 5584256 out of 0 bytes used by permanent object pool.
+[2023.02.05-05.51.37:579][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.02.05-05.51.37:932][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 975AECC54019BD15A03FC4946FDB0E8C | Instance: 667FBCE04593658FC42A58831CB11AA4 (DESKTOP-QSRT9V5-4848).
+[2023.02.05-05.51.37:972][  0]LogPython: Using Python 3.9.7
+[2023.02.05-05.51.38:669][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.02.05-05.51.38:673][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.02.05-05.51.38:845][  0]SourceControl: Source control is disabled
+[2023.02.05-05.51.38:859][  0]SourceControl: Source control is disabled
+[2023.02.05-05.51.38:881][  0]SourceControl: Source control is disabled
+[2023.02.05-05.51.39:118][  0]LogUProjectInfo: Found projects:
+[2023.02.05-05.51.39:230][  0]LogOpenImageDenoise: OIDN starting up
+[2023.02.05-05.51.39:259][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.02.05-05.51.39:277][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.02.05-05.51.39:277][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.02.05-05.51.39:376][  0]LogCollectionManager: Loaded 0 collections in 0.001633 seconds
+[2023.02.05-05.51.39:467][  0]LogFileCache: Scanning file cache for directory 'C:/Users/imjgr/OneDrive/Desktop/GameDev/UnrealGit/chaoticProject/RaidV01/Saved/Collections/' took 0.00s
+[2023.02.05-05.51.39:467][  0]LogFileCache: Scanning file cache for directory 'C:/Users/imjgr/OneDrive/Desktop/GameDev/UnrealGit/chaoticProject/RaidV01/Content/Developers/imjgr/Collections/' took 0.00s
+[2023.02.05-05.51.39:467][  0]LogFileCache: Scanning file cache for directory 'C:/Users/imjgr/OneDrive/Desktop/GameDev/UnrealGit/chaoticProject/RaidV01/Content/Collections/' took 0.00s
+[2023.02.05-05.51.39:725][  0]LogEngine: Initializing Engine...
+[2023.02.05-05.51.39:739][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2023.02.05-05.51.39:749][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.02.05-05.51.40:015][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.02.05-05.51.40:016][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.02.05-05.51.40:025][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.05-05.51.40:053][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.02.05-05.51.40:053][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2023.02.05-05.51.40:074][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2023.02.05-05.51.40:076][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2023.02.05-05.51.40:076][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2023.02.05-05.51.40:076][  0]LogAudio: Display: Audio Device Manager Initialized
+[2023.02.05-05.51.40:076][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2023.02.05-05.51.40:076][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.05-05.51.40:076][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.05-05.51.40:076][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.05-05.51.40:076][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.05-05.51.40:076][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.05-05.51.40:076][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.05-05.51.40:076][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.05-05.51.40:076][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.05-05.51.40:077][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.05-05.51.40:077][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.05-05.51.40:077][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.05-05.51.40:086][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.05-05.51.40:121][  0]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2023.02.05-05.51.40:121][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.05-05.51.40:126][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.05-05.51.40:126][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.05-05.51.40:126][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2023.02.05-05.51.40:126][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.02.05-05.51.40:127][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.02.05-05.51.40:127][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2023.02.05-05.51.40:127][  0]LogInit: FAudioDevice initialized.
+[2023.02.05-05.51.40:128][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.02.05-05.51.40:128][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.02.05-05.51.40:128][  0]LogInit: Texture streaming: Enabled
+[2023.02.05-05.51.40:160][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.0.3-20979098+++UE5+Release-5.0
+[2023.02.05-05.51.40:173][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.02.05-05.51.40:195][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2023.02.05-05.51.40:203][  0]LogLiveCoding: Display: Starting LiveCoding
+[2023.02.05-05.51.40:203][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: RaidV01Editor Win64 Development
+[2023.02.05-05.51.41:947][  0]LogLiveCoding: Display: First instance in process group "UE_RaidV01_0x20784dcb", spawning console
+[2023.02.05-05.51.41:947][  0]LogLiveCoding: Display: Waiting for server
+[2023.02.05-05.51.41:947][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2023.02.05-05.51.42:014][  0]LogInit: Transaction tracking system initialized
+[2023.02.05-05.51.42:086][  0]BlueprintLog: New page: Editor Load
+[2023.02.05-05.51.42:275][  0]LocalizationService: Localization service is disabled
+[2023.02.05-05.51.42:324][  0]TimingProfiler: Initialize
+[2023.02.05-05.51.42:324][  0]TimingProfiler: OnSessionChanged
+[2023.02.05-05.51.42:324][  0]LoadingProfiler: Initialize
+[2023.02.05-05.51.42:324][  0]LoadingProfiler: OnSessionChanged
+[2023.02.05-05.51.42:324][  0]NetworkingProfiler: Initialize
+[2023.02.05-05.51.42:324][  0]NetworkingProfiler: OnSessionChanged
+[2023.02.05-05.51.42:324][  0]MemoryProfiler: Initialize
+[2023.02.05-05.51.42:324][  0]MemoryProfiler: OnSessionChanged
+[2023.02.05-05.51.43:008][  0]LogFileCache: Scanning file cache for directory 'C:/Users/imjgr/OneDrive/Desktop/GameDev/UnrealGit/chaoticProject/RaidV01/Content/' took 0.02s
+[2023.02.05-05.51.43:008][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2023.02.05-05.51.43:104][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2023.02.05-05.51.43:106][  0]SourceControl: Source control is disabled
+[2023.02.05-05.51.43:106][  0]LogUnrealEdMisc: Loading editor; pre map load, took 10.330
+[2023.02.05-05.51.43:106][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/OpenWorld.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.02.05-05.51.43:107][  0]LightingResults: New page: Lighting Build
+[2023.02.05-05.51.43:113][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.02.05-05.51.43:113][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-05.51.43:114][  0]MapCheck: New page: Map Check
+[2023.02.05-05.51.43:114][  0]LightingResults: New page: Lighting Build
+[2023.02.05-05.51.43:118][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.05-05.51.43:121][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.02.05-05.51.43:185][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2023.02.05-05.51.43:191][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.05-05.51.43:192][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2023.02.05-05.51.43:192][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.02.05-05.51.43:192][  0]LogWorldPartition: UWorldPartition::Initialize(IsEditor=1, IsGame=0, IsCooking=0)
+[2023.02.05-05.51.43:447][  0]LogWorldPartition: Display: WorldPartition initialize took 254 ms
+[2023.02.05-05.51.43:659][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.02.05-05.51.43:666][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.02.05-05.51.43:666][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.02.05-05.51.43:676][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 9.645ms to complete.
+[2023.02.05-05.51.43:676][  0]LogFileHelpers: Loading map 'OpenWorld' took 0.569
+[2023.02.05-05.51.43:689][  0]LogUnrealEdMisc: Total Editor Startup Time, took 10.914
+[2023.02.05-05.51.43:690][  0]LogShaderCompilers: Display: ================================================
+[2023.02.05-05.51.43:690][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.05-05.51.43:690][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2023.02.05-05.51.43:690][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2023.02.05-05.51.43:690][  0]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2023.02.05-05.51.43:690][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.05-05.51.43:690][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.02.05-05.51.43:690][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.02.05-05.51.43:690][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.02.05-05.51.43:690][  0]LogShaderCompilers: Display: ================================================
+[2023.02.05-05.51.43:813][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.05-05.51.43:819][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.05-05.51.43:823][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.05-05.51.43:828][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.05-05.51.43:967][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2023.02.05-05.51.43:968][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.02.05-05.51.43:969][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2023.02.05-05.51.43:969][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.02.05-05.51.43:971][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2023.02.05-05.51.43:971][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.02.05-05.51.43:972][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2023.02.05-05.51.43:972][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.02.05-05.51.43:975][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2023.02.05-05.51.43:975][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.02.05-05.51.43:976][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2023.02.05-05.51.43:976][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.02.05-05.51.43:978][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2023.02.05-05.51.43:978][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.02.05-05.51.43:979][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2023.02.05-05.51.43:979][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.02.05-05.51.43:981][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2023.02.05-05.51.43:981][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.02.05-05.51.43:982][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2023.02.05-05.51.43:982][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.02.05-05.51.43:983][  0]LogFeaturePack: Error: Error in Feature pack C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack. Failed to parse manifest: Invalid Json Token. Line: 43 Ch: 4
+[2023.02.05-05.51.44:212][  0]LogSlate: Took 0.000539 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.02.05-05.51.44:216][  0]LogSlate: Took 0.000795 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.02.05-05.51.44:237][  0]LogViewport: Scene viewport resized to 1526x902, mode Windowed.
+[2023.02.05-05.51.44:938][  0]LogStall: Startup...
+[2023.02.05-05.51.44:939][  0]LogStall: Startup complete.
+[2023.02.05-05.51.44:950][  0]LogLoad: (Engine Initialization) Total time: 12.17 seconds
+[2023.02.05-05.51.44:950][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.02.05-05.51.45:012][  0]LogAssetRegistry: Asset discovery search completed in 8.6865 seconds
+[2023.02.05-05.51.45:021][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2023.02.05-05.51.45:148][  0]LogContentStreaming: Texture pool size now 800 MB
+[2023.02.05-05.51.48:591][352]LogSlate: Took 0.000465 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.02.05-05.51.48:595][352]LogSlate: Took 0.002931 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.02.05-05.51.48:602][352]LogSlate: Took 0.003476 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.02.05-05.52.01:218][819]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.02.05-05.52.01:551][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Baker_house_normal.Baker_house_normal (TFO_BC5, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.01:552][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Small_house_texture.Small_house_texture (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.01:552][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Small_house_normal.Small_house_normal (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.01:552][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Baker_house_texture.Baker_house_texture (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.01:552][819]LogMaterial: Display: Missing cached shadermap for Baker_house in PCD3D_SM5, Default, SM5 (DDC key hash: 3A38221CEA8E485823514CF7451D5545226418BA), compiling. 
+[2023.02.05-05.52.01:690][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Stairs_large_normal.Stairs_large_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.01:690][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Ruined_tower_normal.Ruined_tower_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.01:690][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Stairs_small_texture.Stairs_small_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.01:690][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Stairs_normal.Stairs_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.01:690][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Ruined_tower_texture.Ruined_tower_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.01:690][819]LogMaterial: Display: Missing cached shadermap for Ruined_tower in PCD3D_SM5, Default, SM5 (DDC key hash: ED7AE431EC65AB90BC00E915DF3B21DD355437BC), compiling. 
+[2023.02.05-05.52.01:736][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Stairs_large_texture.Stairs_large_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.01:736][819]LogMaterial: Display: Missing cached shadermap for Small_house in PCD3D_SM5, Default, SM5 (DDC key hash: 8ABECB2BE226660033C1114AFE73A23A7759EFA5), compiling. 
+[2023.02.05-05.52.01:784][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Stone_fence_normal.Stone_fence_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.01:784][819]LogMaterial: Display: Missing cached shadermap for Stairs_amall in PCD3D_SM5, Default, SM5 (DDC key hash: 8CC73F9700D7E14F385660AF109EF650E7C6CE30), compiling. 
+[2023.02.05-05.52.01:832][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Stone_fence_texture.Stone_fence_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.01:832][819]LogMaterial: Display: Missing cached shadermap for Stairs_large in PCD3D_SM5, Default, SM5 (DDC key hash: 586B48B38E126A74207194262D41EF8596A9DB9F), compiling. 
+[2023.02.05-05.52.01:883][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Street_light_texture.Street_light_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.01:883][819]LogMaterial: Display: Missing cached shadermap for Stone_fence in PCD3D_SM5, Default, SM5 (DDC key hash: E784C3D0BDB6ADDB2BD1302203FD3EABD1E8CFC8), compiling. 
+[2023.02.05-05.52.01:930][819]LogMaterial: Display: Missing cached shadermap for Streetlight in PCD3D_SM5, Default, SM5 (DDC key hash: 630E6E60A19555E20F3DF845D6B38DF5E91B4C7A), compiling. 
+[2023.02.05-05.52.01:975][819]LogMaterial: Display: Missing cached shadermap for Tavern in PCD3D_SM5, Default, SM5 (DDC key hash: CD9C9674E1162F6A8B7E11F3C6FA5B4170F98924), compiling. 
+[2023.02.05-05.52.02:023][819]LogMaterial: Display: Missing cached shadermap for Tiles in PCD3D_SM5, Default, SM5 (DDC key hash: A555C40B5CCB3C2855D4D40A4E720FA1DD6D1DB5), compiling. 
+[2023.02.05-05.52.02:067][819]LogMaterial: Display: Missing cached shadermap for TownHall in PCD3D_SM5, Default, SM5 (DDC key hash: FAAF2FE658FD00FCDD520BEB5B2A2CE61E9D5294), compiling. 
+[2023.02.05-05.52.02:115][819]LogMaterial: Display: Missing cached shadermap for Trolley in PCD3D_SM5, Default, SM5 (DDC key hash: D51CA8A3AF167BEFE0DE0F3441BE3619F986636E), compiling. 
+[2023.02.05-05.52.02:161][819]LogMaterial: Display: Missing cached shadermap for Well in PCD3D_SM5, Default, SM5 (DDC key hash: 44114493BF144516BBFFE5B5608002A1367822F8), compiling. 
+[2023.02.05-05.52.02:210][819]LogMaterial: Display: Missing cached shadermap for Witch_house in PCD3D_SM5, Default, SM5 (DDC key hash: 22A970A2A372130D5252DFEBE13454E4091C7519), compiling. 
+[2023.02.05-05.52.02:253][819]LogMaterial: Display: Missing cached shadermap for Woodmill in PCD3D_SM5, Default, SM5 (DDC key hash: BF8412734DDC6FFA43AA6B53F9BD40A60CA0CBD7), compiling. 
+[2023.02.05-05.52.02:311][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Streetlight_normal.Streetlight_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.02:311][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Stone_tiles_normal.Stone_tiles_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.02:311][819]LogMaterial: Display: Missing cached shadermap for Lampposts in PCD3D_SM5, Default, SM5 (DDC key hash: B2E49FA3851FC7CFD4E352CAB85EFCC56D7BDE9B), compiling. 
+[2023.02.05-05.52.02:359][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Town_Hall_normal.Town_Hall_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.02:359][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Tavern_texture.Tavern_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.02:359][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Stone_tiles_texture.Stone_tiles_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.02:359][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Altar.Altar should be resaved to improve async compilation performance.
+[2023.02.05-05.52.02:367][819]LogMaterial: Display: Missing cached shadermap for Hammer_anvil in PCD3D_SM5, Default, SM5 (DDC key hash: 2539686CDFB3B424BC6093F6DF02F75C4966944C), compiling. 
+[2023.02.05-05.52.02:414][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Tavern_normal.Tavern_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.02:414][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Town_Hall_texture.Town_Hall_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.02:414][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Trolley_normal.Trolley_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.02:414][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Anvil.Anvil should be resaved to improve async compilation performance.
+[2023.02.05-05.52.02:421][819]LogMaterial: Display: Missing cached shadermap for Pillars_arch in PCD3D_SM5, Default, SM5 (DDC key hash: A0D7F82207BBCB027019E34C17A81C94B36915A6), compiling. 
+[2023.02.05-05.52.02:464][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Arch.Arch should be resaved to improve async compilation performance.
+[2023.02.05-05.52.02:471][819]LogMaterial: Display: Missing cached shadermap for Awning in PCD3D_SM5, Default, SM5 (DDC key hash: 41359278313CC7AFB68E2ACB904B9A509837DAAC), compiling. 
+[2023.02.05-05.52.02:516][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Trolley_texture.Trolley_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.02:516][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Awning.Awning should be resaved to improve async compilation performance.
+[2023.02.05-05.52.02:517][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Baker_house.Baker_house should be resaved to improve async compilation performance.
+[2023.02.05-05.52.02:524][819]LogMaterial: Display: Missing cached shadermap for Barrel in PCD3D_SM5, Default, SM5 (DDC key hash: 424F68A121F9705F7D92C0C6FD945EC7D01AD048), compiling. 
+[2023.02.05-05.52.02:568][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Barrel.Barrel should be resaved to improve async compilation performance.
+[2023.02.05-05.52.02:575][819]LogMaterial: Display: Missing cached shadermap for Boxes in PCD3D_SM5, Default, SM5 (DDC key hash: CC1186B5BE050AD691CFEF06CA216BBECCCE01A5), compiling. 
+[2023.02.05-05.52.02:618][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Box_1.Box_1 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.02:618][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Box_2.Box_2 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.02:618][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Box_3.Box_3 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.02:618][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Box_4.Box_4 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.02:629][819]LogMaterial: Display: Missing cached shadermap for Plants in PCD3D_SM5, Default, SM5 (DDC key hash: 4438550CCA50262D728933DCB82112698D6A63BD), compiling. 
+[2023.02.05-05.52.02:823][819]LogStaticMesh: Display: Building static mesh Altar...
+[2023.02.05-05.52.02:823][819]LogStaticMesh: Built static mesh [0.04s] /Game/HandPaintedEnvironment/Assets/Models/Altar.Altar
+[2023.02.05-05.52.02:823][819]LogStaticMesh: Display: Building static mesh Anvil...
+[2023.02.05-05.52.02:823][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Bush_1.Bush_1 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.02:823][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Bush_2.Bush_2 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.02:829][819]LogStaticMesh: Display: Building static mesh Arch...
+[2023.02.05-05.52.02:829][819]LogMaterial: Display: Missing cached shadermap for Cualdron in PCD3D_SM5, Default, SM5 (DDC key hash: 9965F8E13669523FEBA9A6C1660C6563C7C183DB), compiling. 
+[2023.02.05-05.52.02:872][819]LogStaticMesh: Built static mesh [0.02s] /Game/HandPaintedEnvironment/Assets/Models/Anvil.Anvil
+[2023.02.05-05.52.02:872][819]LogStaticMesh: Display: Building static mesh Awning...
+[2023.02.05-05.52.02:872][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Cauldron.Cauldron should be resaved to improve async compilation performance.
+[2023.02.05-05.52.02:878][819]LogStaticMesh: Built static mesh [0.03s] /Game/HandPaintedEnvironment/Assets/Models/Awning.Awning
+[2023.02.05-05.52.02:878][819]LogMaterial: Display: Missing cached shadermap for Chest in PCD3D_SM5, Default, SM5 (DDC key hash: 8FC67EA331AA3C2728144F3FE57F1C11329361F3), compiling. 
+[2023.02.05-05.52.02:919][819]LogStaticMesh: Built static mesh [0.05s] /Game/HandPaintedEnvironment/Assets/Models/Arch.Arch
+[2023.02.05-05.52.02:919][819]LogStaticMesh: Display: Building static mesh Baker_house...
+[2023.02.05-05.52.02:919][819]LogStaticMesh: Display: Building static mesh Barrel...
+[2023.02.05-05.52.02:919][819]LogStaticMesh: Display: Building static mesh Box_1...
+[2023.02.05-05.52.02:919][819]LogStaticMesh: Display: Building static mesh Box_2...
+[2023.02.05-05.52.02:919][819]LogStaticMesh: Built static mesh [0.02s] /Game/HandPaintedEnvironment/Assets/Models/Barrel.Barrel
+[2023.02.05-05.52.02:919][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Chest.Chest should be resaved to improve async compilation performance.
+[2023.02.05-05.52.02:919][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Chest_cover.Chest_cover should be resaved to improve async compilation performance.
+[2023.02.05-05.52.02:932][819]LogStaticMesh: Display: Building static mesh Bush_1...
+[2023.02.05-05.52.02:933][819]LogStaticMesh: Display: Building static mesh Box_4...
+[2023.02.05-05.52.02:933][819]LogStaticMesh: Built static mesh [0.04s] /Game/HandPaintedEnvironment/Assets/Models/Box_1.Box_1
+[2023.02.05-05.52.02:933][819]LogStaticMesh: Built static mesh [0.03s] /Game/HandPaintedEnvironment/Assets/Models/Box_2.Box_2
+[2023.02.05-05.52.02:933][819]LogStaticMesh: Display: Building static mesh Box_3...
+[2023.02.05-05.52.02:933][819]LogStaticMesh: Display: Building static mesh Bush_2...
+[2023.02.05-05.52.02:933][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Bush_1.Bush_1
+[2023.02.05-05.52.02:933][819]LogStaticMesh: Display: Building static mesh Cauldron...
+[2023.02.05-05.52.02:933][819]LogMaterial: Display: Missing cached shadermap for Crystals in PCD3D_SM5, Default, SM5 (DDC key hash: FF839641144A53E547D5EB2B7C9B7B135B6448CE), compiling. 
+[2023.02.05-05.52.02:981][819]LogStaticMesh: Display: Building static mesh Chest...
+[2023.02.05-05.52.02:981][819]LogStaticMesh: Built static mesh [0.02s] /Game/HandPaintedEnvironment/Assets/Models/Box_4.Box_4
+[2023.02.05-05.52.02:981][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Bush_2.Bush_2
+[2023.02.05-05.52.02:981][819]LogStaticMesh: Built static mesh [0.02s] /Game/HandPaintedEnvironment/Assets/Models/Box_3.Box_3
+[2023.02.05-05.52.02:981][819]LogStaticMesh: Built static mesh [0.02s] /Game/HandPaintedEnvironment/Assets/Models/Cauldron.Cauldron
+[2023.02.05-05.52.02:981][819]LogStaticMesh: Display: Building static mesh Chest_cover...
+[2023.02.05-05.52.02:981][819]LogStaticMesh: Built static mesh [0.05s] /Game/HandPaintedEnvironment/Assets/Models/Chest.Chest
+[2023.02.05-05.52.02:981][819]LogStaticMesh: Built static mesh [0.03s] /Game/HandPaintedEnvironment/Assets/Models/Chest_cover.Chest_cover
+[2023.02.05-05.52.02:981][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Crystal_1.Crystal_1 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.02:981][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Crystal_2.Crystal_2 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.02:981][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Crystal_3.Crystal_3 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.02:981][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Crystal_4.Crystal_4 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.02:981][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Crystal_5.Crystal_5 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.02:988][819]LogStaticMesh: Display: Building static mesh Crystal_1...
+[2023.02.05-05.52.02:988][819]LogStaticMesh: Display: Building static mesh Crystal_2...
+[2023.02.05-05.52.02:988][819]LogMaterial: Display: Missing cached shadermap for Fence_wooden in PCD3D_SM5, Default, SM5 (DDC key hash: 992B9A661EFE5AF7CBCC29F0F6BA3ACC1BAE8711), compiling. 
+[2023.02.05-05.52.03:033][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Crystal_2.Crystal_2
+[2023.02.05-05.52.03:033][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Crystal_1.Crystal_1
+[2023.02.05-05.52.03:033][819]LogStaticMesh: Display: Building static mesh Crystal_3...
+[2023.02.05-05.52.03:033][819]LogStaticMesh: Display: Building static mesh Crystal_4...
+[2023.02.05-05.52.03:033][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Crystal_3.Crystal_3
+[2023.02.05-05.52.03:033][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Crystal_4.Crystal_4
+[2023.02.05-05.52.03:033][819]LogStaticMesh: Display: Building static mesh Crystal_5...
+[2023.02.05-05.52.03:033][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Crystal_5.Crystal_5
+[2023.02.05-05.52.03:033][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Fence.Fence should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:033][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Fence_1.Fence_1 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:034][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Fence_2.Fence_2 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:046][819]LogMaterial: Display: Missing cached shadermap for Fern in PCD3D_SM5, Default, SM5 (DDC key hash: 7B41815FF5BFFDC540C5F138FB60D3E7F35C0997), compiling. 
+[2023.02.05-05.52.03:099][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Fern.Fern should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:099][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Flower.Flower should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:099][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Flowers_1.Flowers_1 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:099][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Flowers_2.Flowers_2 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:105][819]LogMaterial: Display: Missing cached shadermap for Forge in PCD3D_SM5, Default, SM5 (DDC key hash: 6137F68DBABF7103981022109AD1DFDBC087598A), compiling. 
+[2023.02.05-05.52.03:150][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Well_texture.Well_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.03:150][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Witch_house_normal.Witch_house_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.03:150][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Well_normal.Well_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.03:150][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Lampposts_normal.Lampposts_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.03:150][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Forge.Forge should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:151][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Hammer.Hammer should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:151][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Lamppost.Lamppost should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:160][819]LogMaterial: Display: Missing cached shadermap for Large_house in PCD3D_SM5, Default, SM5 (DDC key hash: 2F6DFDE62AE620B094F367520082F59E93C7B44A), compiling. 
+[2023.02.05-05.52.03:210][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Woodmill.Woodmill (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.03:210][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Witch_house_texture.Witch_house_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.03:210][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Lampposts_texture.Lampposts_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.03:210][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Woodmill_normal.Woodmill_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.03:210][819]LogStaticMesh: Built static mesh [0.31s] /Game/HandPaintedEnvironment/Assets/Models/Baker_house.Baker_house
+[2023.02.05-05.52.03:210][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Large_house.Large_house should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:210][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Leaves_1.Leaves_1 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:211][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Leaves_2.Leaves_2 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:211][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Leaves_3.Leaves_3 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:218][819]LogMaterial: Display: Missing cached shadermap for Log_stump_mushrooms in PCD3D_SM5, Default, SM5 (DDC key hash: E62872FBD7EB1E3F006EECD5DE8779B251A6AD5E), compiling. 
+[2023.02.05-05.52.03:269][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Log.Log should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:277][819]LogMaterial: Display: Missing cached shadermap for Logs in PCD3D_SM5, Default, SM5 (DDC key hash: 8E4EE7FC747712CB932C98CCB04E7A897D63FD65), compiling. 
+[2023.02.05-05.52.03:333][819]LogStaticMesh: Display: Building static mesh Fence...
+[2023.02.05-05.52.03:333][819]LogStaticMesh: Built static mesh [0.02s] /Game/HandPaintedEnvironment/Assets/Models/Fence.Fence
+[2023.02.05-05.52.03:333][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Log_1.Log_1 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:333][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Log_2.Log_2 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:333][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Log_3.Log_3 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:341][819]LogMaterial: Display: Missing cached shadermap for Mill in PCD3D_SM5, Default, SM5 (DDC key hash: 676A16AD0EB689D58F6023757F633ECC3678C872), compiling. 
+[2023.02.05-05.52.03:394][819]LogStaticMesh: Display: Building static mesh Fence_1...
+[2023.02.05-05.52.03:395][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Mill.Mill should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:395][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Mill_wings.Mill_wings should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:403][819]LogMaterial: Display: Missing cached shadermap for Mine in PCD3D_SM5, Default, SM5 (DDC key hash: A4E22930079DBAE1A2AA03B80D70031897935063), compiling. 
+[2023.02.05-05.52.03:454][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Fence_1.Fence_1
+[2023.02.05-05.52.03:454][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Mine.Mine should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:454][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Mushroom_1.Mushroom_1 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:454][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Mushroom_2.Mushroom_2 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:454][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Mushroom_3.Mushroom_3 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:454][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Mushroom_4.Mushroom_4 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:454][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Pillar.Pillar should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:454][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Pillar_ruined_1.Pillar_ruined_1 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:455][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Pillar_ruined_2.Pillar_ruined_2 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:466][819]LogStaticMesh: Display: Building static mesh Fence_2...
+[2023.02.05-05.52.03:466][819]LogMaterial: Display: Missing cached shadermap for Pine_tree in PCD3D_SM5, Default, SM5 (DDC key hash: B03C64CFEC848CD87E38A85D19DDBCE0A1B26582), compiling. 
+[2023.02.05-05.52.03:605][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Fence_2.Fence_2
+[2023.02.05-05.52.03:605][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Pine_tree.Pine_tree should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:616][819]LogStaticMesh: Display: Building static mesh Fern...
+[2023.02.05-05.52.03:616][819]LogMaterial: Display: Missing cached shadermap for Pine_tree_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 8A9D6C5D5B3D0992000C591F1BCE1BB5A7574090), compiling. 
+[2023.02.05-05.52.03:740][819]LogStaticMesh: Built static mesh [0.02s] /Game/HandPaintedEnvironment/Assets/Models/Fern.Fern
+[2023.02.05-05.52.03:740][819]LogStaticMesh: Display: Building static mesh Flower...
+[2023.02.05-05.52.03:740][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Flower.Flower
+[2023.02.05-05.52.03:740][819]LogStaticMesh: Display: Building static mesh Flowers_1...
+[2023.02.05-05.52.03:740][819]LogStaticMesh: Built static mesh [0.02s] /Game/HandPaintedEnvironment/Assets/Models/Flowers_1.Flowers_1
+[2023.02.05-05.52.03:740][819]LogStaticMesh: Display: Building static mesh Flowers_2...
+[2023.02.05-05.52.03:740][819]LogStaticMesh: Built static mesh [0.02s] /Game/HandPaintedEnvironment/Assets/Models/Flowers_2.Flowers_2
+[2023.02.05-05.52.03:741][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Pine_tree_2.Pine_tree_2 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:747][819]LogStaticMesh: Display: Building static mesh Hammer...
+[2023.02.05-05.52.03:747][819]LogMaterial: Display: Missing cached shadermap for Plant in PCD3D_SM5, Default, SM5 (DDC key hash: 7A94AFBC4CDBA1BF6CEA5CB1F7380A8E0460717F), compiling. 
+[2023.02.05-05.52.03:831][819]LogStaticMesh: Display: Building static mesh Lamppost...
+[2023.02.05-05.52.03:831][819]LogStaticMesh: Display: Building static mesh Forge...
+[2023.02.05-05.52.03:831][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Hammer.Hammer
+[2023.02.05-05.52.03:831][819]LogStaticMesh: Display: Building static mesh Leaves_1...
+[2023.02.05-05.52.03:831][819]LogStaticMesh: Display: Building static mesh Large_house...
+[2023.02.05-05.52.03:831][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Leaves_1.Leaves_1
+[2023.02.05-05.52.03:831][819]LogStaticMesh: Display: Building static mesh Leaves_2...
+[2023.02.05-05.52.03:831][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Leaves_2.Leaves_2
+[2023.02.05-05.52.03:831][819]LogStaticMesh: Display: Building static mesh Leaves_3...
+[2023.02.05-05.52.03:831][819]LogStaticMesh: Display: Building static mesh Log...
+[2023.02.05-05.52.03:831][819]LogStaticMesh: Display: Building static mesh Log_1...
+[2023.02.05-05.52.03:831][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Leaves_3.Leaves_3
+[2023.02.05-05.52.03:831][819]LogStaticMesh: Built static mesh [0.05s] /Game/HandPaintedEnvironment/Assets/Models/Lamppost.Lamppost
+[2023.02.05-05.52.03:831][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Log_1.Log_1
+[2023.02.05-05.52.03:831][819]LogStaticMesh: Built static mesh [0.02s] /Game/HandPaintedEnvironment/Assets/Models/Log.Log
+[2023.02.05-05.52.03:831][819]LogStaticMesh: Display: Building static mesh Log_3...
+[2023.02.05-05.52.03:831][819]LogStaticMesh: Display: Building static mesh Log_2...
+[2023.02.05-05.52.03:831][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Plant.Plant should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:838][819]LogStaticMesh: Display: Building static mesh Mill_wings...
+[2023.02.05-05.52.03:838][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Log_3.Log_3
+[2023.02.05-05.52.03:838][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Log_2.Log_2
+[2023.02.05-05.52.03:838][819]LogMaterial: Display: Missing cached shadermap for Railway in PCD3D_SM5, Default, SM5 (DDC key hash: 4FB1FBCB8FA909436B1A767668F63A90D4550EAB), compiling. 
+[2023.02.05-05.52.03:884][819]LogStaticMesh: Display: Building static mesh Mine...
+[2023.02.05-05.52.03:884][819]LogStaticMesh: Display: Building static mesh Mill...
+[2023.02.05-05.52.03:884][819]LogStaticMesh: Display: Building static mesh Mushroom_1...
+[2023.02.05-05.52.03:884][819]LogStaticMesh: Display: Building static mesh Mushroom_2...
+[2023.02.05-05.52.03:884][819]LogStaticMesh: Display: Building static mesh Mushroom_3...
+[2023.02.05-05.52.03:884][819]LogStaticMesh: Display: Building static mesh Mushroom_4...
+[2023.02.05-05.52.03:884][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Mushroom_1.Mushroom_1
+[2023.02.05-05.52.03:884][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Mushroom_2.Mushroom_2
+[2023.02.05-05.52.03:884][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Mushroom_3.Mushroom_3
+[2023.02.05-05.52.03:884][819]LogStaticMesh: Display: Building static mesh Pillar...
+[2023.02.05-05.52.03:884][819]LogStaticMesh: Display: Building static mesh Pillar_ruined_1...
+[2023.02.05-05.52.03:884][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Mushroom_4.Mushroom_4
+[2023.02.05-05.52.03:885][819]LogStaticMesh: Display: Building static mesh Pillar_ruined_2...
+[2023.02.05-05.52.03:885][819]LogStaticMesh: Display: Building static mesh Pine_tree...
+[2023.02.05-05.52.03:885][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Pillar.Pillar
+[2023.02.05-05.52.03:885][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Pillar_ruined_1.Pillar_ruined_1
+[2023.02.05-05.52.03:885][819]LogStaticMesh: Built static mesh [0.03s] /Game/HandPaintedEnvironment/Assets/Models/Mine.Mine
+[2023.02.05-05.52.03:885][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Pillar_ruined_2.Pillar_ruined_2
+[2023.02.05-05.52.03:885][819]LogStaticMesh: Display: Building static mesh Plant...
+[2023.02.05-05.52.03:885][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Railway_1.Railway_1 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:885][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Railway_2.Railway_2 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:885][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Railway_3.Railway_3 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:891][819]LogStaticMesh: Display: Building static mesh Pine_tree_2...
+[2023.02.05-05.52.03:891][819]LogMaterial: Display: Missing cached shadermap for Rocks_1_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 4DD2E82F02F94487482E7FB5C07158972E5C3DA5), compiling. 
+[2023.02.05-05.52.03:928][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Plant.Plant
+[2023.02.05-05.52.03:928][819]LogStaticMesh: Display: Building static mesh Railway_1...
+[2023.02.05-05.52.03:928][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Rock_1.Rock_1 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:928][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Rock_2.Rock_2 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:934][819]LogMaterial: Display: Missing cached shadermap for Rocks_3_4 in PCD3D_SM5, Default, SM5 (DDC key hash: FA7BCB02D6D975BD35020EDBFD8B9F34DF29D1DF), compiling. 
+[2023.02.05-05.52.03:973][819]LogStaticMesh: Built static mesh [0.05s] /Game/HandPaintedEnvironment/Assets/Models/Pine_tree_2.Pine_tree_2
+[2023.02.05-05.52.03:973][819]LogStaticMesh: Display: Building static mesh Railway_2...
+[2023.02.05-05.52.03:973][819]LogStaticMesh: Built static mesh [0.05s] /Game/HandPaintedEnvironment/Assets/Models/Railway_1.Railway_1
+[2023.02.05-05.52.03:973][819]LogStaticMesh: Built static mesh [0.08s] /Game/HandPaintedEnvironment/Assets/Models/Pine_tree.Pine_tree
+[2023.02.05-05.52.03:973][819]LogStaticMesh: Display: Building static mesh Railway_3...
+[2023.02.05-05.52.03:973][819]LogStaticMesh: Display: Building static mesh Rock_1...
+[2023.02.05-05.52.03:973][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Rock_1.Rock_1
+[2023.02.05-05.52.03:973][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Rock_3.Rock_3 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:973][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Rock_4.Rock_4 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:974][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Small_house.Small_house should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:974][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Stairs.Stairs should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:974][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Stairs_Large.Stairs_Large should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:974][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Stone_fence.Stone_fence should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:974][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/street_light.street_light should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:974][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Stump.Stump should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:974][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Tavern.Tavern should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:974][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Tile_1.Tile_1 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:974][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Tile_2.Tile_2 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:974][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Tile_3.Tile_3 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:974][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Tile_4.Tile_4 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:974][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Tile_5.Tile_5 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:974][819]LogStaticMesh: Display: Building static mesh Rock_2...
+[2023.02.05-05.52.03:974][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Tile_6.Tile_6 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:974][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Tile_7.Tile_7 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:974][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Tower.Tower should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:974][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Town_Hall.Town_Hall should be resaved to improve async compilation performance.
+[2023.02.05-05.52.03:984][819]LogMaterial: Display: Missing cached shadermap for Tree_1_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 98D836D32182664AF9519ED4FB508DF162D8E4D2), compiling. 
+[2023.02.05-05.52.04:214][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Rock_2.Rock_2
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Built static mesh [0.24s] /Game/HandPaintedEnvironment/Assets/Models/Forge.Forge
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Display: Building static mesh Rock_2...
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Built static mesh [0.05s] /Game/HandPaintedEnvironment/Assets/Models/Railway_2.Railway_2
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Display: Building static mesh Rock_3...
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Rock_2.Rock_2
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Display: Building static mesh Rock_4...
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Rock_3.Rock_3
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Rock_4.Rock_4
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Built static mesh [0.18s] /Game/HandPaintedEnvironment/Assets/Models/Mill_wings.Mill_wings
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Display: Building static mesh Small_house...
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Display: Building static mesh Stone_fence...
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Display: Building static mesh Stairs...
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Built static mesh [0.18s] /Game/HandPaintedEnvironment/Assets/Models/Mill.Mill
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Display: Building static mesh Stairs_Large...
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Stone_fence.Stone_fence
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Display: Building static mesh street_light...
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Display: Building static mesh Stump...
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Built static mesh [0.07s] /Game/HandPaintedEnvironment/Assets/Models/Railway_3.Railway_3
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Stump.Stump
+[2023.02.05-05.52.04:215][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Hammer_anvil_normal.Hammer_anvil_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Display: Building static mesh Tavern...
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Built static mesh [0.03s] /Game/HandPaintedEnvironment/Assets/Models/Stairs.Stairs
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Built static mesh [0.02s] /Game/HandPaintedEnvironment/Assets/Models/street_light.street_light
+[2023.02.05-05.52.04:215][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Hammer_anvil_texture.Hammer_anvil_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Display: Building static mesh Tile_2...
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Display: Building static mesh Tile_1...
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Built static mesh [0.05s] /Game/HandPaintedEnvironment/Assets/Models/Stairs_Large.Stairs_Large
+[2023.02.05-05.52.04:215][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Tile_2.Tile_2
+[2023.02.05-05.52.04:216][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Tile_1.Tile_1
+[2023.02.05-05.52.04:216][819]LogStaticMesh: Built static mesh [0.31s] /Game/HandPaintedEnvironment/Assets/Models/Large_house.Large_house
+[2023.02.05-05.52.04:216][819]LogStaticMesh: Display: Building static mesh Tile_3...
+[2023.02.05-05.52.04:216][819]LogStaticMesh: Display: Building static mesh Tile_6...
+[2023.02.05-05.52.04:216][819]LogStaticMesh: Display: Building static mesh Tile_5...
+[2023.02.05-05.52.04:216][819]LogStaticMesh: Display: Building static mesh Tile_4...
+[2023.02.05-05.52.04:216][819]LogStaticMesh: Display: Building static mesh Tile_7...
+[2023.02.05-05.52.04:216][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Tree_1.Tree_1 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.04:230][819]LogMaterial: Display: Missing cached shadermap for Tree_2_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 411FBB07131A39E88D6C25E53EC48B4C7D368CE1), compiling. 
+[2023.02.05-05.52.04:477][819]LogStaticMesh: Built static mesh [0.04s] /Game/HandPaintedEnvironment/Assets/Models/Tile_3.Tile_3
+[2023.02.05-05.52.04:477][819]LogStaticMesh: Built static mesh [0.04s] /Game/HandPaintedEnvironment/Assets/Models/Tile_5.Tile_5
+[2023.02.05-05.52.04:477][819]LogStaticMesh: Built static mesh [0.04s] /Game/HandPaintedEnvironment/Assets/Models/Tile_7.Tile_7
+[2023.02.05-05.52.04:477][819]LogStaticMesh: Built static mesh [0.04s] /Game/HandPaintedEnvironment/Assets/Models/Tile_6.Tile_6
+[2023.02.05-05.52.04:477][819]LogStaticMesh: Built static mesh [0.23s] /Game/HandPaintedEnvironment/Assets/Models/Small_house.Small_house
+[2023.02.05-05.52.04:477][819]LogStaticMesh: Built static mesh [0.04s] /Game/HandPaintedEnvironment/Assets/Models/Tile_4.Tile_4
+[2023.02.05-05.52.04:477][819]LogStaticMesh: Display: Building static mesh Tower...
+[2023.02.05-05.52.04:477][819]LogStaticMesh: Display: Building static mesh Town_Hall...
+[2023.02.05-05.52.04:477][819]LogStaticMesh: Display: Building static mesh Tree_1...
+[2023.02.05-05.52.04:477][819]LogStaticMesh: Built static mesh [0.23s] /Game/HandPaintedEnvironment/Assets/Models/Tavern.Tavern
+[2023.02.05-05.52.04:477][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Awning_normal.Awning_normal (TFO_BC5, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.04:477][819]LogStaticMesh: Built static mesh [0.04s] /Game/HandPaintedEnvironment/Assets/Models/Tower.Tower
+[2023.02.05-05.52.04:477][819]LogStaticMesh: Built static mesh [0.03s] /Game/HandPaintedEnvironment/Assets/Models/Tree_1.Tree_1
+[2023.02.05-05.52.04:477][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Pillars_arch_texture.Pillars_arch_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.04:477][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Pillars_arch_normal.Pillars_arch_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.04:477][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Tree_2.Tree_2 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.04:492][819]LogMaterial: Display: Missing cached shadermap for Tree_2_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 013EA09A884F01A6404598A4A14ABFB62B76DC7E), compiling. 
+[2023.02.05-05.52.04:754][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Awning_texture.Awning_texture (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.04:754][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Boxes_normal.Boxes_normal (TFO_BC5, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.04:754][819]LogStaticMesh: Display: Building static mesh Tree_2...
+[2023.02.05-05.52.04:754][819]LogStaticMesh: Built static mesh [0.04s] /Game/HandPaintedEnvironment/Assets/Models/Tree_2.Tree_2
+[2023.02.05-05.52.04:755][819]LogStaticMesh: Built static mesh [0.30s] /Game/HandPaintedEnvironment/Assets/Models/Town_Hall.Town_Hall
+[2023.02.05-05.52.04:755][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Boxes_texture.Boxes_texture (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.04:755][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Plants_alpha.Plants_alpha (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.04:755][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Barrel_normal.Barrel_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.04:755][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Barrel_texture.Barrel_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.04:755][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Plants_normal.Plants_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.04:755][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Tree_2_1.Tree_2_1 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.04:770][819]LogMaterial: Display: Missing cached shadermap for Tree_1_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 3AE9F99C63FE5742CE021DD649DEBF23DF955718), compiling. 
+[2023.02.05-05.52.04:994][819]LogStaticMesh: Display: Building static mesh Tree_2_1...
+[2023.02.05-05.52.04:994][819]LogStaticMesh: Built static mesh [0.03s] /Game/HandPaintedEnvironment/Assets/Models/Tree_2_1.Tree_2_1
+[2023.02.05-05.52.04:994][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Tree_4.Tree_4 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.04:994][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Trolley.Trolley should be resaved to improve async compilation performance.
+[2023.02.05-05.52.04:995][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Trolley_wheel.Trolley_wheel should be resaved to improve async compilation performance.
+[2023.02.05-05.52.05:003][819]LogMaterial: Display: Missing cached shadermap for Ruined_walls in PCD3D_SM5, Default, SM5 (DDC key hash: C8AAE4B6589370812AA65A5516CE9B7490967873), compiling. 
+[2023.02.05-05.52.05:056][819]LogStaticMesh: Display: Building static mesh Tree_4...
+[2023.02.05-05.52.05:057][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Plants_texture.Plants_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.05:057][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Wall_1.Wall_1 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.05:057][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Wall_2.Wall_2 should be resaved to improve async compilation performance.
+[2023.02.05-05.52.05:057][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Well.Well should be resaved to improve async compilation performance.
+[2023.02.05-05.52.05:057][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Witch_house.Witch_house should be resaved to improve async compilation performance.
+[2023.02.05-05.52.05:057][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Woodmill.Woodmill should be resaved to improve async compilation performance.
+[2023.02.05-05.52.05:057][819]LogStaticMesh: StaticMesh /Game/HandPaintedEnvironment/Assets/Models/Woodmill_Saw.Woodmill_Saw should be resaved to improve async compilation performance.
+[2023.02.05-05.52.05:072][819]LogStaticMesh: Built static mesh [0.04s] /Game/HandPaintedEnvironment/Assets/Models/Tree_4.Tree_4
+[2023.02.05-05.52.05:216][819]LogStaticMesh: Display: Building static mesh Trolley...
+[2023.02.05-05.52.05:216][819]LogStaticMesh: Built static mesh [0.03s] /Game/HandPaintedEnvironment/Assets/Models/Trolley.Trolley
+[2023.02.05-05.52.05:216][819]LogStaticMesh: Display: Building static mesh Trolley_wheel...
+[2023.02.05-05.52.05:216][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Cauldron_normal.Cauldron_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.05:216][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Trolley_wheel.Trolley_wheel
+[2023.02.05-05.52.05:216][819]LogStaticMesh: Display: Building static mesh Wall_1...
+[2023.02.05-05.52.05:216][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Wall_1.Wall_1
+[2023.02.05-05.52.05:216][819]LogStaticMesh: Display: Building static mesh Wall_2...
+[2023.02.05-05.52.05:216][819]LogStaticMesh: Display: Building static mesh Well...
+[2023.02.05-05.52.05:216][819]LogStaticMesh: Built static mesh [0.01s] /Game/HandPaintedEnvironment/Assets/Models/Wall_2.Wall_2
+[2023.02.05-05.52.05:216][819]LogStaticMesh: Display: Building static mesh Witch_house...
+[2023.02.05-05.52.05:216][819]LogStaticMesh: Display: Building static mesh Woodmill...
+[2023.02.05-05.52.05:216][819]LogStaticMesh: Display: Building static mesh Woodmill_Saw...
+[2023.02.05-05.52.05:216][819]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/HandPaintedEnvironment/Assets/Models/Well) ...
+[2023.02.05-05.52.05:247][819]LogStaticMesh: Built static mesh [0.04s] /Game/HandPaintedEnvironment/Assets/Models/Well.Well
+[2023.02.05-05.52.05:247][819]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/HandPaintedEnvironment/Assets/Models/Witch_house) ...
+[2023.02.05-05.52.05:494][819]LogStaticMesh: Built static mesh [0.14s] /Game/HandPaintedEnvironment/Assets/Models/Woodmill_Saw.Woodmill_Saw
+[2023.02.05-05.52.05:494][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Cauldron_texture.Cauldron_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.05:494][819]LogStaticMesh: Built static mesh [0.27s] /Game/HandPaintedEnvironment/Assets/Models/Witch_house.Witch_house
+[2023.02.05-05.52.05:494][819]LogStaticMesh: Built static mesh [0.29s] /Game/HandPaintedEnvironment/Assets/Models/Woodmill.Woodmill
+[2023.02.05-05.52.05:494][819]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/HandPaintedEnvironment/Assets/Models/Woodmill) ...
+[2023.02.05-05.52.05:862][819]LogStaticMesh: Display: Building static mesh Woodmill...
+[2023.02.05-05.52.05:862][819]LogStaticMesh: Built static mesh [0.29s] /Game/HandPaintedEnvironment/Assets/Models/Woodmill.Woodmill
+[2023.02.05-05.52.05:865][819]LogActorComponent: RegisterComponentWithWorld: (/Game/HandPaintedEnvironment/Maps/Overview_map_2/Overview.Overview:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsValid() == false. Aborting.
+[2023.02.05-05.52.05:872][819]LogAssetEditorSubsystem: Opening Asset editor for World /Game/HandPaintedEnvironment/Maps/Overview_map_2/Overview.Overview
+[2023.02.05-05.52.05:873][819]LightingResults: New page: Lighting Build
+[2023.02.05-05.52.05:873][819]LoadErrors: New page: Loading map: Overview.umap
+[2023.02.05-05.52.05:924][819]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2023.02.05-05.52.05:924][819]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-05.52.05:926][819]MapCheck: New page: Map Check
+[2023.02.05-05.52.05:926][819]LightingResults: New page: Lighting Build
+[2023.02.05-05.52.05:938][819]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.05-05.52.06:002][819]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.02.05-05.52.06:075][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Fern_alpha.Fern_alpha (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.06:082][819]LogTexture: Display: Waiting for textures to be ready 43/128 (/Game/HandPaintedEnvironment/Assets/Textures/Summer/Chest_normal) ...
+[2023.02.05-05.52.06:293][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Fence_normal.Fence_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.06:293][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Fern_normal.Fern_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.06:293][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Fence_texture.Fence_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.06:293][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Crystals_texture.Crystals_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.06:293][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Chest_normal.Chest_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.06:293][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Chest_texture.Chest_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.06:599][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Fern_texture.Fern_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.06:599][819]LogTexture: Display: Waiting for textures to be ready 45/128 (/Game/HandPaintedEnvironment/Assets/Textures/Summer/Crystals_texture) ...
+[2023.02.05-05.52.06:723][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Forge_normal.Forge_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.06:765][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Forge_texture.Forge_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.06:765][819]LogTexture: Display: Waiting for textures to be ready 47/128 (/Game/HandPaintedEnvironment/Assets/Textures/Summer/Fence_texture) ...
+[2023.02.05-05.52.06:905][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Large_house_normal.Large_house_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.06:905][819]LogTexture: Display: Waiting for textures to be ready 50/128 (/Game/HandPaintedEnvironment/Assets/Textures/Summer/Fern_texture) ...
+[2023.02.05-05.52.06:939][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Log_stump_mushrooms_normal.Log_stump_mushrooms_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.06:939][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Large_house_texture.Large_house_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.06:993][819]LogTexture: Display: Waiting for textures to be ready 51/128 (/Game/HandPaintedEnvironment/Assets/Textures/Summer/Forge_normal) ...
+[2023.02.05-05.52.07:118][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Log_stump_mushrooms_texture.Log_stump_mushrooms_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.07:118][819]LogTexture: Display: Waiting for textures to be ready 52/128 (/Game/HandPaintedEnvironment/Assets/Textures/Summer/Forge_texture) ...
+[2023.02.05-05.52.07:355][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Logs_normal.Logs_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.07:355][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Logs_texture.Logs_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.07:376][819]LogTexture: Display: Waiting for textures to be ready 54/128 (/Game/HandPaintedEnvironment/Assets/Textures/Summer/Large_house_texture) ...
+[2023.02.05-05.52.07:569][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Mill_normal.Mill_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.07:569][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Mill_texture.Mill_texture (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.07:569][819]LogTexture: Display: Building textures: /Game/HandPaintedEnvironment/Assets/Textures/Summer/Mine_normal.Mine_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2023.02.05-05.52.07:729][819]LogTexture: Display: Waiting for textures to be ready 58/128 (/Game/HandPaintedEnvironment/Assets/Textures/Summer/Logs_texture) ...
+[2023.02.05-05.52.07:781][819]LogTexture: Display: Waiting for textures to be ready 59/128 (/Game/HandPaintedEnvironment/Assets/Textures/Summer/Mill_normal) ...
