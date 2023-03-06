@@ -16,7 +16,7 @@ public:
 	ARaidCharacter();
 	virtual void Tick(float DeltaTime) override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-	//virtual void PostInitilizeComponents() override;
+	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 protected:
 	virtual void BeginPlay() override;
@@ -37,8 +37,14 @@ private:
 	//UPROPERTY(VisibleAnywhere)
 	//class UCombatComponent* Combat;
 
+	UPROPERTY(ReplicatedUsing = OnRep_OverlappingWeapon)
+	class AWeapon* OverlappingWeapon;
+
+	UFUNCTION()
+	void OnRep_OverlappingWeapon(AWeapon* LastWeapon);
 
 public:	
-	
+	bool IsWeaponEquipped();
+	void SetOverlappingWeapon(AWeapon* Weapon);
 
 };

@@ -1,5 +1,18 @@
 ﻿  Using bundled DotNet SDK
   Log file: C:\Users\imjgr\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (C:\Users\imjgr\OneDrive\Desktop\GameDev\UnrealGit\chaoticProject).
-  Target is up to date
-  Total execution time: 0.68 seconds
+  Waiting for 'git status' command to complete
+  Building RaidV01Editor...
+  Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from RaidV01 unity file: RaidAnimInstance.cpp, RaidCharacter.cpp, Weapon.cpp
+  Determining max actions to execute in parallel (10 physical cores, 20 logical cores)
+    Executing up to 10 processes, one per physical core
+  Building 4 actions with 4 processes...
+  [1/4] Compile Weapon.cpp
+  [2/4] Link UnrealEditor-RaidV01.lib
+     Creating library C:\Users\imjgr\OneDrive\Desktop\GameDev\UnrealGit\chaoticProject\RaidV01\Intermediate\Build\Win64\UnrealEditor\Development\RaidV01\UnrealEditor-RaidV01.lib and object C:\Users\imjgr\OneDrive\Desktop\GameDev\UnrealGit\chaoticProject\RaidV01\Intermediate\Build\Win64\UnrealEditor\Development\RaidV01\UnrealEditor-RaidV01.exp
+  [3/4] Link UnrealEditor-RaidV01.dll
+     Creating library C:\Users\imjgr\OneDrive\Desktop\GameDev\UnrealGit\chaoticProject\RaidV01\Intermediate\Build\Win64\UnrealEditor\Development\RaidV01\UnrealEditor-RaidV01.suppressed.lib and object C:\Users\imjgr\OneDrive\Desktop\GameDev\UnrealGit\chaoticProject\RaidV01\Intermediate\Build\Win64\UnrealEditor\Development\RaidV01\UnrealEditor-RaidV01.suppressed.exp
+  [4/4] WriteMetadata RaidV01Editor.target
+  Total time in Parallel executor: 7.00 seconds
+  Total execution time: 8.69 seconds

@@ -6,6 +6,8 @@
 #include "Camera/CameraComponent.h"	
 #include "GameFramework/CharacterMovementComponent.h"
 #include "RaidV01/RaidComponents/CombatComponent.h"
+#include "Net/UnrealNetwork.h"
+#include "RaidV01/Weapon/Weapon.h"
 
 
 // Sets default values
@@ -28,6 +30,12 @@ ARaidCharacter::ARaidCharacter()
 
 	//Combat = CreateDefaultSubobject<UCombatComponent>(TEXT("CombatComponent"));
 	//Combat->SetIsReplicated(true);
+}
+
+void ARaidCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+	DOREPLIFETIME_CONDITION(ARaidCharacter, OverlappingWeapon, COND_OwnerOnly);
 }
 
 // Called when the game starts or when spawned
@@ -95,6 +103,11 @@ void ARaidCharacter::EquipButtonPressed()
 	//}
 }
 
+bool ARaidCharacter::IsWeaponEquipped()
+{
+	return true; //setting is default the player has the weapon
+}
+
 // Called every frame
 void ARaidCharacter::Tick(float DeltaTime)
 {
@@ -102,4 +115,23 @@ void ARaidCharacter::Tick(float DeltaTime)
 
 }
 
+void ARaidCharacter::SetOverlappingWeapon(AWeapon* Weapon) {
+	if (OverlappingWeapon) {
+		OverlappingWeapon->ShowPickUpWidget(false);
+	}
+	OverlappingWeapon = Weapon;
+	if (IsLocallyControlled()) {
+		if (OverlappingWeapon) {
+			OverlappingWeapon->ShowPickUpWidget(true);
+		}
+	}
+}
 
+void ARaidCharacter::OnRep_OverlappingWeapon(AWeapon* LastWeapon) {
+	if (OverlappingWeapon) {
+		OverlappingWeapon->ShowPickUpWidget(true);
+	}
+	if (LastWeapon) {
+		LastWeapon->ShowPickUpWidget(false);
+	}
+}

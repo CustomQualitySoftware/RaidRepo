@@ -30,4 +30,6 @@ void URaidAnimInstance::NativeUpdateAnimation(float DeltaTime)
 	bIsInAir = RaidCharacter->GetCharacterMovement()->IsFalling();
 
 	bIsAccelerating = RaidCharacter->GetCharacterMovement()->GetCurrentAcceleration().Size() > 0.f ? true : false; //Ternary Expression if greater than 0 its true else set to false.
+
+	bWeaponEquipped = RaidCharacter->IsWeaponEquipped(); //currently function returns true
 }

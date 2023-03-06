@@ -48,6 +48,11 @@ void EmptyLinkFunctionForGeneratedCodeRaidAnimInstance() {}
 #endif
 		static void NewProp_bIsAccelerating_SetBit(void* Obj);
 		static const UECodeGen_Private::FBoolPropertyParams NewProp_bIsAccelerating;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_bWeaponEquipped_MetaData[];
+#endif
+		static void NewProp_bWeaponEquipped_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_bWeaponEquipped;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -104,11 +109,24 @@ void EmptyLinkFunctionForGeneratedCodeRaidAnimInstance() {}
 		((URaidAnimInstance*)Obj)->bIsAccelerating = 1;
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_URaidAnimInstance_Statics::NewProp_bIsAccelerating = { "bIsAccelerating", nullptr, (EPropertyFlags)0x0040000000000014, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(URaidAnimInstance), &Z_Construct_UClass_URaidAnimInstance_Statics::NewProp_bIsAccelerating_SetBit, METADATA_PARAMS(Z_Construct_UClass_URaidAnimInstance_Statics::NewProp_bIsAccelerating_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_URaidAnimInstance_Statics::NewProp_bIsAccelerating_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_URaidAnimInstance_Statics::NewProp_bWeaponEquipped_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Movement" },
+		{ "ModuleRelativePath", "Character/RaidAnimInstance.h" },
+	};
+#endif
+	void Z_Construct_UClass_URaidAnimInstance_Statics::NewProp_bWeaponEquipped_SetBit(void* Obj)
+	{
+		((URaidAnimInstance*)Obj)->bWeaponEquipped = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_URaidAnimInstance_Statics::NewProp_bWeaponEquipped = { "bWeaponEquipped", nullptr, (EPropertyFlags)0x0040000000000014, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(URaidAnimInstance), &Z_Construct_UClass_URaidAnimInstance_Statics::NewProp_bWeaponEquipped_SetBit, METADATA_PARAMS(Z_Construct_UClass_URaidAnimInstance_Statics::NewProp_bWeaponEquipped_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_URaidAnimInstance_Statics::NewProp_bWeaponEquipped_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_URaidAnimInstance_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_URaidAnimInstance_Statics::NewProp_RaidCharacter,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_URaidAnimInstance_Statics::NewProp_Speed,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_URaidAnimInstance_Statics::NewProp_bIsInAir,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_URaidAnimInstance_Statics::NewProp_bIsAccelerating,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_URaidAnimInstance_Statics::NewProp_bWeaponEquipped,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_URaidAnimInstance_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<URaidAnimInstance>::IsAbstract,
@@ -146,9 +164,9 @@ void EmptyLinkFunctionForGeneratedCodeRaidAnimInstance() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RaidV01_Source_RaidV01_Character_RaidAnimInstance_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_URaidAnimInstance, URaidAnimInstance::StaticClass, TEXT("URaidAnimInstance"), &Z_Registration_Info_UClass_URaidAnimInstance, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(URaidAnimInstance), 3201574851U) },
+		{ Z_Construct_UClass_URaidAnimInstance, URaidAnimInstance::StaticClass, TEXT("URaidAnimInstance"), &Z_Registration_Info_UClass_URaidAnimInstance, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(URaidAnimInstance), 2513083611U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RaidV01_Source_RaidV01_Character_RaidAnimInstance_h_2973294844(TEXT("/Script/RaidV01"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RaidV01_Source_RaidV01_Character_RaidAnimInstance_h_3135154405(TEXT("/Script/RaidV01"),
 		Z_CompiledInDeferFile_FID_RaidV01_Source_RaidV01_Character_RaidAnimInstance_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_RaidV01_Source_RaidV01_Character_RaidAnimInstance_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

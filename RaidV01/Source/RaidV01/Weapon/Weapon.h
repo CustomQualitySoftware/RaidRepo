@@ -25,9 +25,11 @@ class RAIDV01_API AWeapon : public AActor
 public:
 	AWeapon();
 	virtual void Tick(float DeltaTime) override;
+	void ShowPickUpWidget(bool bShowWidget);
 protected:
 	virtual void BeginPlay() override;
-	UFUNCTION()
+
+		UFUNCTION()
 		virtual void OnSphereOverlap(
 			UPrimitiveComponent* OverlappedComponent,
 			AActor* OtherActor,
@@ -59,5 +61,5 @@ private:
 		class UWidgetComponent* PickupWidget;
 public:
 	FORCEINLINE void SetWeaponState(EWeaponState State) { WeaponState = State; }
-
+	//FORCEINLINE void SetWeaponVisability(bool state) { PickupWidget.SetVisability(state); }//delete if messed up
 };
