@@ -6,12 +6,11 @@
 #include "Camera/CameraComponent.h"	
 #include "GameFramework/CharacterMovementComponent.h"
 #include "RaidV01/RaidComponents/CombatComponent.h"
-#include "Net/UnrealNetwork.h"
-#include "RaidV01/Weapon/Weapon.h"
+#include "Kismet/GameplayStatics.h"
 
 
 // Sets default values
-ARaidCharacter::ARaidCharacter()
+ARaidCharacter::ARaidCharacter() : Health(75), MaxHealth(100)
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -58,6 +57,7 @@ void ARaidCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAxis("LookUp", this, &ARaidCharacter::LookUp);
 
 	PlayerInputComponent->BindAction("Equip", IE_Pressed, this, &ARaidCharacter::EquipButtonPressed);
+	PlayerInputComponent->BindAction("ShootKey", IE_Pressed, this, &ARaidCharacter::ShootRay);
 }
 
 //void ARaidCharacter::PostInitilizeComponents()
@@ -101,6 +101,64 @@ void ARaidCharacter::EquipButtonPressed()
 	//if (Combat) {
 		//revisit weapon again Combat->EquipWeapon(OverlappingWeapon);
 	//}
+}
+
+void ARaidCharacter::ShootRay()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Boom pow gat"));
+
+	// *** now we want to fire from the center of the screen and see what it hits. This is the end position of the ray 
+	
+	// find location of cross hairs
+	FVector2D ViewportSize;
+	if (GEngine && GEngine->GameViewport)
+	{
+		GEngine->GameViewport->GetViewportSize(ViewportSize);
+	}
+	FVector2D CrosshairLocation(ViewportSize.X / 2.f, ViewportSize.Y / 2.f);
+
+	FVector CrosshairWorldPosition;
+	FVector CrosshairWorldDirection;
+	bool bScreenToWorld = UGameplayStatics::DeprojectScreenToWorld(
+		UGameplayStatics::GetPlayerController(this, 0), 
+		CrosshairLocation,
+		CrosshairWorldPosition,
+		CrosshairWorldDirection);
+
+	if (bScreenToWorld) // was deprojection successful?
+	{
+		// actually fire our shot from camera 
+		FHitResult ScreenTraceHit;
+		const FVector Start = CrosshairWorldPosition;
+		const FVector End = CrosshairWorldPosition + CrosshairWorldDirection * 50'0000;
+
+		FVector ScreenBeamEndPoint = End;
+		GetWorld()->LineTraceSingleByChannel(ScreenTraceHit, Start, End, ECollisionChannel::ECC_Visibility);
+		if (ScreenTraceHit.bBlockingHit)
+		{
+			ScreenBeamEndPoint = ScreenTraceHit.Location;
+			DrawDebugLine(GetWorld(), Start, End, FColor::Blue, false, 2.f);
+			DrawDebugSphere(GetWorld(), ScreenTraceHit.ImpactPoint, 100.0f, 1, FColor::Red, true, -1.0f);
+			UE_LOG(LogTemp, Warning, TEXT("Hit Something"));
+		}
+	}
+
+	// Now we want to shot from our character in the direction of where this middle beam went, make sure no blockage
+
+	/*
+	USkeletalMeshComponent* ourMesh = GetMesh();
+	const FVector Start = ourMesh->GetComponentLocation();
+	
+	FHitResult ShootHit;
+	GetWorld()->LineTraceSingleByChannel(ShootHit, Start, ScreenBeamEndPoint, ECollisionChannel::ECC_Visibility);
+
+	if (ShootHit.bBlockingHit)
+	{
+		DrawDebugLine(GetWorld(), Start, End, FColor::Blue, false, 2.f);
+		DrawDebugSphere(GetWorld(), ShootHit.ImpactPoint, 100.0f, 1, FColor::Red, true, -1.0f);
+		UE_LOG(LogTemp, Warning, TEXT("Hit Something"));
+	}
+	*/
 }
 
 bool ARaidCharacter::IsWeaponEquipped()
