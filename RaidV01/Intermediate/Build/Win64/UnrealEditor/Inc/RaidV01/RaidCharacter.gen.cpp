@@ -86,6 +86,14 @@ void EmptyLinkFunctionForGeneratedCodeRaidCharacter() {}
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_FollowCamera;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Health_MetaData[];
+#endif
+		static const UECodeGen_Private::FIntPropertyParams NewProp_Health;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MaxHealth_MetaData[];
+#endif
+		static const UECodeGen_Private::FIntPropertyParams NewProp_MaxHealth;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_OverlappingWeapon_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_OverlappingWeapon;
@@ -124,16 +132,34 @@ void EmptyLinkFunctionForGeneratedCodeRaidCharacter() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARaidCharacter_Statics::NewProp_FollowCamera = { "FollowCamera", nullptr, (EPropertyFlags)0x00400000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARaidCharacter, FollowCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ARaidCharacter_Statics::NewProp_FollowCamera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARaidCharacter_Statics::NewProp_FollowCamera_MetaData)) };
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARaidCharacter_Statics::NewProp_OverlappingWeapon_MetaData[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARaidCharacter_Statics::NewProp_Health_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "General" },
 		{ "Comment", "//UPROPERTY(VisibleAnywhere)\n//class UCombatComponent* Combat;\n" },
 		{ "ModuleRelativePath", "Character/RaidCharacter.h" },
 		{ "ToolTip", "UPROPERTY(VisibleAnywhere)\nclass UCombatComponent* Combat;" },
+	};
+#endif
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ARaidCharacter_Statics::NewProp_Health = { "Health", nullptr, (EPropertyFlags)0x0040000000020015, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARaidCharacter, Health), METADATA_PARAMS(Z_Construct_UClass_ARaidCharacter_Statics::NewProp_Health_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARaidCharacter_Statics::NewProp_Health_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARaidCharacter_Statics::NewProp_MaxHealth_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "General" },
+		{ "ModuleRelativePath", "Character/RaidCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ARaidCharacter_Statics::NewProp_MaxHealth = { "MaxHealth", nullptr, (EPropertyFlags)0x0040000000020015, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARaidCharacter, MaxHealth), METADATA_PARAMS(Z_Construct_UClass_ARaidCharacter_Statics::NewProp_MaxHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARaidCharacter_Statics::NewProp_MaxHealth_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARaidCharacter_Statics::NewProp_OverlappingWeapon_MetaData[] = {
+		{ "ModuleRelativePath", "Character/RaidCharacter.h" },
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARaidCharacter_Statics::NewProp_OverlappingWeapon = { "OverlappingWeapon", "OnRep_OverlappingWeapon", (EPropertyFlags)0x0040000100000020, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARaidCharacter, OverlappingWeapon), Z_Construct_UClass_AWeapon_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ARaidCharacter_Statics::NewProp_OverlappingWeapon_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARaidCharacter_Statics::NewProp_OverlappingWeapon_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ARaidCharacter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaidCharacter_Statics::NewProp_CameraBoom,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaidCharacter_Statics::NewProp_FollowCamera,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaidCharacter_Statics::NewProp_Health,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaidCharacter_Statics::NewProp_MaxHealth,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaidCharacter_Statics::NewProp_OverlappingWeapon,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ARaidCharacter_Statics::StaticCppClassTypeInfo = {
@@ -182,9 +208,9 @@ void EmptyLinkFunctionForGeneratedCodeRaidCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RaidV01_Source_RaidV01_Character_RaidCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ARaidCharacter, ARaidCharacter::StaticClass, TEXT("ARaidCharacter"), &Z_Registration_Info_UClass_ARaidCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARaidCharacter), 1544423161U) },
+		{ Z_Construct_UClass_ARaidCharacter, ARaidCharacter::StaticClass, TEXT("ARaidCharacter"), &Z_Registration_Info_UClass_ARaidCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARaidCharacter), 511918446U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RaidV01_Source_RaidV01_Character_RaidCharacter_h_2831783834(TEXT("/Script/RaidV01"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RaidV01_Source_RaidV01_Character_RaidCharacter_h_599915198(TEXT("/Script/RaidV01"),
 		Z_CompiledInDeferFile_FID_RaidV01_Source_RaidV01_Character_RaidCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_RaidV01_Source_RaidV01_Character_RaidCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
